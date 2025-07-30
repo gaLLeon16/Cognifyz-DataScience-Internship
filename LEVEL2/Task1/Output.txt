@@ -1,0 +1,29 @@
+PS C:\Users\rohit\OneDrive\Desktop\Cognifyz> python -u "c:\Users\rohit\OneDrive\Desktop\Cognifyz\LEVEL2\Task1\lev2task1.py"
+Table Booking Availability:
+Has Table booking
+No     8384
+Yes    1158
+Name: count, dtype: int64
+
+Percentage with Table Booking: 12.14%
+Percentage without Table Booking: 87.86%
+
+Average Rating (With Table Booking): 3.44
+Average Rating (Without Table Booking): 2.56
+
+Online Delivery Availability:
+Has Online delivery
+No     7091
+Yes    2451
+Name: count, dtype: int64
+
+Percentage with Online Delivery: 25.69%
+Percentage without Online Delivery: 74.31%
+
+Online Delivery Available by Price Range:
+Price range
+1     701
+2    1286
+3     411
+4      53
+Name: count, dtype: int64

@@ -1,0 +1,36 @@
+1. Rating Category Distribution
+File: rating_distribution.png
+A bar chart showing counts of restaurants in: Unrated, Poor, Average, Good, Excellent
+Insight: Most restaurants fall into Average and Good categories. Very few are rated Excellent, and many are Unrated.
+
+2. Top 10 Primary Cuisines
+File: top_cuisines.png
+A horizontal bar plot showing the 10 most common cuisines (first from the list)
+Likely shows:
+North Indian
+Cafe
+Chinese
+Fast Food
+American
+Insight: These cuisines are the most offered across restaurants in the dataset.
+
+3. Votes by Price Range (Boxplot)
+File: votes_by_price.png
+Boxplot showing the distribution of votes (customer popularity) by price range (1 to 4)
+Insight: Higher price ranges tend to have more variation and higher vote counts overall, meaning premium restaurants attract more attention.
+
+4. Rating vs Online Delivery
+File: rating_vs_delivery.png
+Boxplot comparing restaurant ratings:
+  With Online Delivery (Yes)
+  Without (No)
+Insight: Restaurants with online delivery tend to have higher median ratings.
+
+5. Rating vs Table Booking
+File: rating_vs_booking.png
+Boxplot showing rating distribution:
+  With Table Booking
+  Without Table Booking
+Insight: Similar trend — ratings are higher for restaurants that offer booking.
+
+

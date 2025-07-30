@@ -1,0 +1,18 @@
+Level 1 – Task 3: Geospatial Analysis
+Objective:
+To analyze the geographic distribution of restaurants using their longitude and latitude values, and to understand whether highly rated restaurants tend to cluster in specific regions.
+
+What Was Done:
+1. The dataset was visualized using a scatter plot with Longitude and Latitude as axes.
+2. Colors represented the Aggregate Rating of each restaurant using a cool-to-warm palette.
+3. Missing values were removed to ensure the accuracy of plotted points.
+
+Observations:
+1. Restaurant clusters are clearly visible around India and nearby regions, with tight groupings in urban hotspots.
+2. A large number of high-rated restaurants (3.0–4.5 ratings) are clustered in certain dense areas.
+3. Lower-rated or unrated restaurants (0 or 1) appear more spread out or less dense.
+
+Conclusion:
+The visualization successfully shows how restaurants are geographically distributed across the globe and highlights potential urban clusters of high-rated establishments. This insight could help businesses target areas with higher competition or underserved zones.
+
+

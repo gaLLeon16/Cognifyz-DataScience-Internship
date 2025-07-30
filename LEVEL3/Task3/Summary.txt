@@ -1,0 +1,22 @@
+Level 3 – Task 3: Data Visualization
+Objective:
+To build visualizations that clearly present patterns, distributions, and relationships in the restaurant dataset, helping turn raw data into visual insight.
+
+Visualizations Created:
+1. Rating Category Distribution
+A bar plot showing how restaurants are rated across five categories: Unrated, Poor, Average, Good, Excellent.
+
+2. Top 10 Primary Cuisines
+A horizontal bar chart displaying the most frequently listed first cuisines — helps identify what's most commonly offered.
+
+3. Votes by Price Range (Boxplot)
+Visualized how customer engagement (votes) varies across different price ranges.
+
+4. Rating vs Online Delivery (Boxplot)
+Compared restaurant ratings based on whether they offer online delivery or not.
+
+5. Rating vs Table Booking (Boxplot)
+Compared ratings for restaurants with and without table booking facilities.
+
+Conclusion:
+Visualization played a key role in validating earlier insights from feature engineering and predictive modeling. The visuals make trends more accessible and support informed decision-making for businesses and analysts.

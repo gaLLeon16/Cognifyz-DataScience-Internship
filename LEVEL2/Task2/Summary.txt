@@ -1,0 +1,17 @@
+Level 2 – Task 2: Price Range Analysis
+ Objective:
+To analyze how restaurant price range relates to ratings and rating color, and identify patterns that indicate quality or affordability.
+
+Steps Performed:
+1. Identified the most common price range among all restaurants.
+2. Calculated the average aggregate rating for each price range (1 to 4).
+3. Found the rating color most frequently used for the price range with the highest average rating.
+
+Key Observations:
+1. Most Common Price Range: 1 (budget-friendly)
+2. Highest Average Rating: Found in Price Range 4 (premium restaurants)
+      Average Rating: 3.82
+3. Most Common Rating Color for Price Range 4: Yellow
+
+Conclusion:
+Although most restaurants fall under Price Range 1, they receive the lowest average ratings. On the other hand, restaurants in Price Range 4 (likely premium restaurants) receive the highest ratings, and most of them are marked with the Yellow rating color, indicating “Good” to “Very Good” experience.

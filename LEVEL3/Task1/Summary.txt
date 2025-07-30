@@ -1,0 +1,22 @@
+Level 3 Task 1: Predictive Modeling
+
+Objective:
+To build a machine learning model that can predict the rating category of a restaurant based on features like price range, votes, and delivery options.
+
+Approach:
+Cleaned the dataset and removed missing values
+Engineered helpful features like:
+  Rating Category from Aggregate rating
+  Price Label (Budget or Premium)
+  Converted Yes/No to 1/0 for online delivery and table booking
+Used a Decision Tree Classifier for classification
+
+Target Variable:
+Rating Category
+(Unrated, Poor, Average, Good, Excellent)
+
+Model Performance:
+Achieved 75.33% accuracy on the test data
+
+Conclusion:
+The model was able to predict restaurant rating categories with a solid 75%+ accuracy using just 4 simple features. This shows the power of basic machine learning and feature engineering in extracting value from raw data.

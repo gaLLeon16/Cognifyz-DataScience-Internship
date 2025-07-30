@@ -1,0 +1,19 @@
+Level 2 – Task 3: Feature Engineering
+
+Objective:
+To enhance the dataset by creating new features from existing columns that can make analysis and machine learning models more meaningful and effective.
+
+New Features Created:
+1. Rating Category
+     Based on Aggregate rating, categorized into:
+     Unrated, Poor, Average, Good, Excellent
+     Helps classify restaurants into quality levels
+2. Primary Cuisine
+     Extracted the first cuisine from multi-cuisine entries in the Cuisines column
+     Makes it easier to group restaurants by their main cuisine type
+3. Price Label
+     Converted Price range into simplified groups: Budget (1 or 2), Premium (3 or 4)
+     Useful for analyzing service patterns based on affordability
+
+Conclusion:
+By applying feature engineering, we transformed raw columns into more informative categories. These new features make the dataset better for storytelling, grouping, and predictive modeling

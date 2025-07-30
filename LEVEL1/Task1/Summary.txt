@@ -1,0 +1,26 @@
+Level 1 – Task 1: Data Exploration and Preprocessing
+
+Objective:
+
+To explore and understand the dataset by analyzing its structure, cleaning missing data, and examining the distribution of the Aggregate rating column.
+
+Steps Performed:
+
+1.Loaded the dataset using Python's pandas library.
+2.Inspected dataset structure:
+ Rows: 9551
+ Columns: 21
+3.Checked data types of each column using .dtypes.
+4.Identified missing values using .isnull().sum():
+Found 9 missing values in the "Cuisines" column.
+5.Cleaned the data by dropping rows with missing values using .dropna().
+Cleaned dataset shape: 9542 rows, 21 columns.
+6.Analyzed the distribution of "Aggregate rating" using .value_counts()
+
+Key Observations:
+
+The dataset mostly consists of valid, complete entries.
+Only 9 rows had missing cuisines, which were safely dropped.
+The most common rating is 0.0 (2148 restaurants), which may indicate unrated or newly added listings.
+Ratings between 3.0 to 4.5 were the most frequent, showing a concentration of average-to-good rated restaurants.
+Very few restaurants had ratings below 2.0, and only 1 restaurant had 1.8.

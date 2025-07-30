@@ -1,0 +1,25 @@
+import pandas as pd
+
+data_path = r"C:\Users\rohit\OneDrive\Desktop\Cognifyz\LEVEL1\Task1\Dataset.csv"
+df = pd.read_csv(data_path)
+df = df.dropna()
+
+def rating_to_category(rating):
+    if rating == 0.0:
+        return "Unrated"
+    elif rating <= 2.5:
+        return "Poor"
+    elif rating <= 3.5:
+        return "Average"
+    elif rating <= 4.5:
+        return "Good"
+    else:
+        return "Excellent"
+
+df["Rating Category"] = df["Aggregate rating"].apply(rating_to_category)
+
+df["Primary Cuisine"] = df["Cuisines"].apply(lambda x: x.split(',')[0].strip())
+
+df["Price Label"] = df["Price range"].apply(lambda x: "Budget" if x <= 2 else "Premium")
+
+print(df[["Aggregate rating", "Rating Category", "Cuisines", "Primary Cuisine", "Price range", "Price Label"]].head(10))

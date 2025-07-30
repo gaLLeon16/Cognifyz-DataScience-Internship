@@ -1,0 +1,25 @@
+Level 2 – Task 1: Table Booking and Online Delivery Analysis
+
+Objective:
+To analyze how many restaurants offer table booking and online delivery, compare their average ratings, and study how delivery availability varies across different price ranges.
+
+Steps Performed:
+1. Checked how many restaurants offer:
+   Table booking
+   Online delivery
+2. Calculated the percentage of restaurants that offer or don’t offer these services.
+3. Compared average ratings between restaurants with and without table booking.
+4. Analyzed online delivery availability across different Price range values (1 to 4).
+
+Key Observations:
+Table Booking:
+1. Restaurants offering table booking: 1158
+2. Restaurants without table booking: 8384
+3. Only 12.14% offer table booking
+4. Average rating with table booking: 3.44
+5. Average rating without table booking: 2.56
+
+Online Delivery:
+1. Restaurants with online delivery: 2451
+2. Without online delivery: 7091
+3. 25.69% offer online delivery

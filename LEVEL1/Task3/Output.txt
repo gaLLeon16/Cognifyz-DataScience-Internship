@@ -1,0 +1,2 @@
+Geospatial Distribution of Restaurants plotted using Latitude and Longitude.
+The image has been saved as 'level1_task3_output.png'.

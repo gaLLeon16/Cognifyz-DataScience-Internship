@@ -1,0 +1,2 @@
+PS C:\Users\rohit\OneDrive\Desktop\Cognifyz> python -u "c:\Users\rohit\OneDrive\Desktop\Cognifyz\LEVEL3\Task1\lev3task1.py"
+Model Accuracy: 75.33%

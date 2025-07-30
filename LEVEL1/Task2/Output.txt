@@ -1,0 +1,59 @@
+PS C:\Users\rohit\OneDrive\Desktop\Cognifyz> python -u "c:\Users\rohit\OneDrive\Desktop\Cognifyz\LEVEL1\Task2\task2.py"
+Basic Statistical Measures:
+       Restaurant ID  Country Code    Longitude     Latitude  Average Cost for two  Price range  Aggregate rating         Votes
+count   9.542000e+03   9542.000000  9542.000000  9542.000000           9542.000000  9542.000000       9542.000000   9542.000000
+mean    9.043301e+06     18.179208    64.274997    25.848532           1200.326137     1.804968          2.665238    156.772060
+std     8.791967e+06     56.451600    41.197602    11.010094          16128.743876     0.905563          1.516588    430.203324
+min     5.300000e+01      1.000000  -157.948486   -41.330428              0.000000     1.000000          0.000000      0.000000
+25%     3.019312e+05      1.000000    77.081565    28.478658            250.000000     1.000000          2.500000      5.000000
+50%     6.002726e+06      1.000000    77.192031    28.570444            400.000000     2.000000          3.200000     31.000000
+75%     1.835260e+07      1.000000    77.282043    28.642711            700.000000     2.000000          3.700000    130.000000
+max     1.850065e+07    216.000000   174.832089    55.976980         800000.000000     4.000000          4.900000  10934.000000
+
+Median Values:
+Restaurant ID           6.002726e+06
+Country Code            1.000000e+00
+Longitude               7.719203e+01
+Latitude                2.857044e+01
+Average Cost for two    4.000000e+02
+Price range             2.000000e+00
+Aggregate rating        3.200000e+00
+Votes                   3.100000e+01
+dtype: float64
+
+Top Countries by Restaurant Count:
+Country Code
+1      8652
+216     425
+215      80
+30       60
+189      60
+Name: count, dtype: int64
+
+Top Cities by Restaurant Count:
+City
+New Delhi       5473
+Gurgaon         1118
+Noida           1080
+Faridabad        251
+Ghaziabad         25
+Bhubaneshwar      21
+Ahmedabad         21
+Lucknow           21
+Guwahati          21
+Amritsar          21
+Name: count, dtype: int64
+
+Top Cuisines by Restaurant Count:
+Cuisines
+North Indian                      936
+North Indian, Chinese             511
+Chinese                           354
+Fast Food                         354
+North Indian, Mughlai             334
+Cafe                              299
+Bakery                            218
+North Indian, Mughlai, Chinese    197
+Bakery, Desserts                  170
+Street Food                       149
+Name: count, dtype: int64

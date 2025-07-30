@@ -1,0 +1,101 @@
+First 5 Rows of the Dataset:
+   Restaurant ID         Restaurant Name  Country Code              City  ... Aggregate rating Rating color Rating text  Votes
+0        6317637        Le Petit Souffle           162       Makati City  ...              4.8   Dark Green   Excellent    314
+1        6304287        Izakaya Kikufuji           162       Makati City  ...              4.5   Dark Green   Excellent    591
+2        6300002  Heat - Edsa Shangri-La           162  Mandaluyong City  ...              4.4        Green   Very Good    270
+3        6318506                    Ooma           162  Mandaluyong City  ...              4.9   Dark Green   Excellent    365
+4        6314302             Sambo Kojin           162  Mandaluyong City  ...              4.8   Dark Green   Excellent    229
+
+[5 rows x 21 columns]
+
+Shape of Dataset (Rows, Columns):
+9551 rows, 21 columns
+
+Data Types of Columns:
+Restaurant ID             int64
+Restaurant Name          object
+Country Code              int64
+City                     object
+Address                  object
+Locality                 object
+Locality Verbose         object
+Longitude               float64
+Latitude                float64
+Cuisines                 object
+Average Cost for two      int64
+Currency                 object
+Has Table booking        object
+Has Online delivery      object
+Is delivering now        object
+Switch to order menu     object
+Price range               int64
+Aggregate rating        float64
+Rating color             object
+Rating text              object
+Votes                     int64
+dtype: object
+
+Missing Values in Each Column:
+Restaurant ID           0
+Restaurant Name         0
+Country Code            0
+City                    0
+Address                 0
+Locality                0
+Locality Verbose        0
+Longitude               0
+Latitude                0
+Cuisines                9
+Average Cost for two    0
+Currency                0
+Has Table booking       0
+Has Online delivery     0
+Is delivering now       0
+Switch to order menu    0
+Price range             0
+Aggregate rating        0
+Rating color            0
+Rating text             0
+Votes                   0
+dtype: int64
+
+Shape After Dropping Missing Values:
+(9542, 21)
+
+Distribution of Aggregate Ratings:
+Aggregate rating
+0.0    2148
+3.2     522
+3.1     519
+3.4     495
+3.3     483
+3.5     480
+3.0     468
+3.6     458
+3.7     427
+3.8     399
+2.9     381
+3.9     332
+2.8     315
+4.1     274
+4.0     266
+2.7     250
+4.2     221
+2.6     191
+4.3     174
+4.4     143
+2.5     110
+4.5      95
+2.4      87
+4.6      78
+4.9      61
+2.3      47
+4.7      41
+2.2      27
+4.8      25
+2.1      15
+2.0       7
+1.9       2
+1.8       1
+Name: count, dtype: int64
+PS C:\Users\rohit\OneDrive\Desktop\Cognifyz>

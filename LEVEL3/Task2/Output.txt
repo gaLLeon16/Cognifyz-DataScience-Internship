@@ -1,0 +1,34 @@
+PS C:\Users\rohit\OneDrive\Desktop\Cognifyz> python -u "c:\Users\rohit\OneDrive\Desktop\Cognifyz\LEVEL3\Task2\lev3task2.py"
+Top Cuisines in Excellent Rated Restaurants:
+Primary Cuisine
+American        19
+North Indian    18
+Cafe            16
+Indian          11
+Desserts        10
+European         9
+Asian            9
+Italian          8
+Brazilian        8
+Continental      8
+Name: count, dtype: int64
+
+Average Rating with/without Online Delivery:
+Online Delivery
+0    2.463517
+1    3.248837
+Name: Aggregate rating, dtype: float64
+
+Average Rating with/without Table Booking:
+Table Booking
+0    2.557956
+1    3.441969
+Name: Aggregate rating, dtype: float64
+
+Correlation with Votes (Popularity):
+Votes               1.000000
+Aggregate rating    0.313474
+Price range         0.309474
+Table Booking       0.169619
+Online Delivery     0.074532
+Name: Votes, dtype: float64

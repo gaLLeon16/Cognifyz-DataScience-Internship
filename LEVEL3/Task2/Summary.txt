@@ -1,0 +1,24 @@
+Level 3 – Task 2: Customer Preference Analysis
+
+Objective:
+To understand customer behavior and preferences by analyzing the relationships between ratings, services, cuisines, and popularity (votes).
+
+Key Findings:
+Top 10 Cuisines in Excellent-Rated Restaurants:
+Rank	Cuisine  	Count
+1	American	19
+2	North Indian	18
+3	Cafe	        16
+4	Indian	        11
+5	Desserts	10
+
+Does Online Delivery Affect Ratings
+Restaurants with delivery: 3.25 average rating
+Without delivery: 2.46 average rating
+
+Does Table Booking Affect Ratings
+With booking: 3.44
+Without booking: 2.55
+
+Conclusion:
+Customers tend to prefer restaurants with online delivery, table booking, and premium price ranges. American and North Indian cuisines are top picks among highly rated places. These insights are valuable for businesses targeting better customer satisfaction and visibility.

@@ -1,0 +1,13 @@
+PS C:\Users\rohit\OneDrive\Desktop\Cognifyz> python -u "c:\Users\rohit\OneDrive\Desktop\Cognifyz\LEVEL2\Task2\lev2task2.py"
+Most Common Price Range: 1
+
+Average Aggregate Rating for Each Price Range:
+Price range
+1    1.997476
+2    2.941054
+3    3.682633
+4    3.817918
+Name: Aggregate rating, dtype: float64
+
+Price Range with Highest Average Rating: 4
+Most Common Rating Color in Price Range 4: Yellow

@@ -1,0 +1,12 @@
+PS C:\Users\rohit\OneDrive\Desktop\Cognifyz> python -u "c:\Users\rohit\OneDrive\Desktop\Cognifyz\LEVEL2\Task3\lev2task3"
+   Aggregate rating Rating Category                            Cuisines Primary Cuisine  Price range Price Label
+0               4.8       Excellent          French, Japanese, Desserts          French            3     Premium
+1               4.5            Good                            Japanese        Japanese            3     Premium
+2               4.4            Good    Seafood, Asian, Filipino, Indian         Seafood            4     Premium
+3               4.9       Excellent                     Japanese, Sushi        Japanese            4     Premium
+4               4.8       Excellent                    Japanese, Korean        Japanese            4     Premium
+5               4.4            Good                             Chinese         Chinese            3     Premium
+6               4.0            Good                     Asian, European           Asian            4     Premium
+7               4.2            Good  Seafood, Filipino, Asian, European         Seafood            4     Premium
+8               4.9       Excellent             European, Asian, Indian        European            4     Premium
+9               4.8       Excellent                            Filipino        Filipino            3     Premium

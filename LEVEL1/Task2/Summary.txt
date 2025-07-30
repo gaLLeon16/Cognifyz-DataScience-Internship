@@ -1,0 +1,37 @@
+Level 1 – Task 2: Descriptive Analysis
+
+Objective:
+To gain statistical insights from the dataset by analyzing numeric and categorical data. The goal is to understand overall data distribution and identify popular countries, cities, and cuisines.
+
+Steps Performed:
+Calculated basic statistical measures (mean, median, standard deviation, min, max) using .describe() and .median() for numeric columns.
+
+2. Analyzed the distribution of categorical columns:
+
+Country Code
+City
+Cuisines
+
+3. Identified:
+
+Top 5 countries with the highest number of restaurants
+Top 10 cities by restaurant count
+Top 10 cuisines served across all restaurants
+
+Key Observations:
+Total rows: 9542 (after cleaning missing data)
+Most frequent country (by code): 1 – indicating India, with 8652 restaurants
+Top 3 cities:
+    New Delhi – 5473
+    Gurgaon – 1118
+    Noida – 1080
+Most common cuisines:
+    North Indian – 936
+    North Indian, Chinese – 511
+    Chinese and Fast Food – 354 each
+
+Statistical Highlights:
+
+Average cost for two: Mean ₹1200, Median ₹400, but goes up to ₹800,000 (outliers).
+Aggregate rating: Median of 3.2, with a max of 4.9
+Votes range from 0 to 10,934, showing huge variation in restaurant popularity.
